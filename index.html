@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+    <meta charset="UTF-8">
+    <title>React.js</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="libraries/react.development.js"></script>
+    <script src="libraries/react-dom.development.js"></script>
+    <script src="libraries/babel.min.js"></script>
+
+    <style type="text/css">
+
+        body {
+            background-color: #000;
+            background-image: url("https://potokmedia.ru/wp-content/uploads/2020/03/maxresdefault-6.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-size: 100%;
+
+        }
+        #wrapper {
+            padding: 400px;
+            text-align: right;
+            line-height: 15px;
+            font-size: 45px;
+        }
+        #root {
+            width: 250px;
+            margin: auto;
+            color: #000000;
+        }
+        </style>
+    <script type="text/babel">
+
+
+        function App() {
+            const a=["Привет мир!"];
+            return a;
+        }
+
+
+
+        ReactDOM.render(<App/>, document.getElementById('root'));
+    </script>;
+
+</head>
+<body>
+<div id="wrapper">
+    <div id="root"></div>
+</div>
+</body>
+</html>
